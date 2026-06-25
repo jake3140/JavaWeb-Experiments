@@ -26,7 +26,7 @@ public class OutputPicture extends HttpServlet {
         byte[] buffer = new byte[1024];
         //记录每次获得的字节数，不为0输出
         int byteRead = 0;
-        //获取buffer里字节
+        //获取buffer里字节,并返回字节数，不为0，就输出
         while ((byteRead = input.read(buffer)) >0) {
             out.write(buffer,0,byteRead);
         }
