@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>测试问卷</title>
+</head>
+<body>
+<h2 align="center">测试问卷</h2>
+<form action="exam" method="post">
+  <p>1. Windows 操作系统是哪个公司的产品？<br>
+    <input type="radio" name="q1" value="A">Apple公司
+    <input type="radio" name="q1" value="B"> IBM公司
+    <input type="radio" name="q1" value="C"> MicroSoft公司
+    <input type="radio" name="q1" value="D"> Oracle公司
+  </p>
+
+  <p>2. 下列哪些是面向对象的程序设计语言？（10分，错选多选不得分，少选得5分）<br>
+    <input type="checkbox" name="q2" value="A">C
+    <input type="checkbox" name="q2" value="B"> C++
+    <input type="checkbox" name="q2" value="C"> Java
+    <input type="checkbox" name="q2" value="D"> Python
+  </p>
+
+  <p><input type="text" name="q3" size="10">是中国的首都。（10分）</p>
+  <p align="center">
+    <input type="submit" value="交卷">
+    <input type="reset" value="重答">
+  </p>
+</form>
+</body>
+</html>
