@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 import java.time.LocalDate;
 
-@Data//记得刷新maven才有
+@Data//自动生成一堆的set，get，记得刷新maven才有
 @NoArgsConstructor//无参构造
 @AllArgsConstructor//全参构造
 public class student implements Serializable {
