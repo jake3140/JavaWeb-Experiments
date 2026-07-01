@@ -11,7 +11,7 @@
     <title>学生查询</title>
   </head>
 <body>
-<p><a href="find-student">查询学生</a></p>
+<p><a href="find-student">查询所有学生</a></p>
 <form method="post" action="find-student">
     请输入学生学号：
     <input type="text" name="stuId" size="15">
